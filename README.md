@@ -1,4 +1,4 @@
-# SkyGeni Sequential Recommender
+# SkyGeni Sequential Recommendation System
 
 > A hybrid Markov + Association Rules engine that predicts the next product a B2B account will buy — built as a Practicum project at Santa Clara University in partnership with SkyGeni.
 
@@ -34,7 +34,7 @@ Evaluated on **3,510 accounts** with leave-last-out protocol on **33,589 purchas
 
 ---
 
-## 🧠 Approach
+## Approach
 
 The hybrid recommender combines **seven complementary signals** into a single ranked recommendation:
 
@@ -58,7 +58,7 @@ When a higher-order Markov state isn't found in training, its weight cascades to
 
 ---
 
-## 📁 What's in this repo
+## What's in this repo
 
 | File | Description |
 |---|---|
@@ -69,7 +69,7 @@ When a higher-order Markov state isn't found in training, its weight cascades to
 
 ---
 
-## 🎮 Try the Interactive Demo
+## Try the Interactive Demo
 
 The landing page includes a working demo: select any of 12 "most recent purchase" scenarios and instantly see the actual top-5 recommendations from real account data — with full per-signal score breakdown.
 
@@ -77,7 +77,7 @@ The landing page includes a working demo: select any of 12 "most recent purchase
 
 ---
 
-## 🚀 Proposed Next Steps
+## Proposed Next Steps
 
 From the official report, prioritized by effort vs. impact:
 
@@ -102,7 +102,7 @@ Santa Clara University · MSBA Practicum · May 2026
 
 ---
 
-## 🛠 Tech Stack
+## 💻 Tech Stack
 
 - **Python** — pandas, numpy, openpyxl
 - **Methods** — Higher-order Markov chains, association rule mining, leave-last-out evaluation
